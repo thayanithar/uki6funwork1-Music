@@ -1,6 +1,6 @@
 var context = document.querySelector('.music-container');
 var controls = document.querySelector('.controls');
-client_id: '340f063c670272fac27cfa67bffcafc4'
+CLIENTID: '340f063c670272fac27cfa67bffcafc4'
 SC.initialize({
   client_id: CLIENTID,
   redirectURI: 'http://localhost:9001' 
