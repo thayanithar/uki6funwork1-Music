@@ -1,16 +1,11 @@
-var context = document.querySelector('.music-container');
-var controls = document.querySelector('.controls');
-CLIENTID: '340f063c670272fac27cfa67bffcafc4'
 SC.initialize({
-  client_id: CLIENTID,
-  redirectURI: 'http://localhost:9001' 
-
+  client_id: 'a3e059563d7fd3372b49b37f00a00bcf'
 });
 
 
 $(document).ready(function()   {
 
-  SC.stream('/tracks/1326276/', function(sound) {
+  SC.stream('/tracks/80651626', function(sound) {
   $('#start1').click(function(e) {
     e.preventDefault();
     sound.start();
@@ -21,7 +16,7 @@ $(document).ready(function()   {
   });
 });
 
- SC.stream('/tracks/345527848', function(sound) {
+ SC.stream('/tracks/699009733 ', function(sound) {
   $('#start2').click(function(e) {
     e.preventDefault();
     sound.start();
@@ -32,7 +27,7 @@ $(document).ready(function()   {
   });
 });
 
- SC.stream('/tracks/364718444', function(sound) {
+ SC.stream('/tracks/718826809', function(sound) {
   $('#start3').click(function(e) {
     e.preventDefault();
     sound.start();
@@ -43,7 +38,7 @@ $(document).ready(function()   {
   });
 });
 
-SC.stream('/tracks/194149990', function(sound) {
+SC.stream('/tracks/273616392', function(sound) {
  $('#start4').click(function(e) {
    e.preventDefault();
    sound.start();
@@ -54,7 +49,7 @@ SC.stream('/tracks/194149990', function(sound) {
  });
 });
 
-SC.stream('/tracks/345528518', function(sound) {
+SC.stream('/tracks/185076670', function(sound) {
  $('#start5').click(function(e) {
    e.preventDefault();
    sound.start();
@@ -65,7 +60,7 @@ SC.stream('/tracks/345528518', function(sound) {
  });
 });
 
-SC.stream('/tracks/238075643', function(sound) {
+SC.stream('/tracks/190979588 ', function(sound) {
  $('#start6').click(function(e) {
    e.preventDefault();
    sound.start();
@@ -76,7 +71,7 @@ SC.stream('/tracks/238075643', function(sound) {
  });
 });
 
-SC.stream('/tracks/105278929', function(sound) {
+SC.stream('/tracks/238999695', function(sound) {
  $('#start7').click(function(e) {
    e.preventDefault();
    sound.start();
@@ -87,7 +82,7 @@ SC.stream('/tracks/105278929', function(sound) {
  });
 });
 
-SC.stream('/tracks/318053145', function(sound) {
+SC.stream('tracks/757066927', function(sound) {
  $('#start8').click(function(e) {
    e.preventDefault();
    sound.start();
