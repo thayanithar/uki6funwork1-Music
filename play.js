@@ -102,5 +102,54 @@ SC.stream('/tracks/238999695',function(sound){
                     sound.stop();
                   });
 });
+//muttu
+SC.stream('/tracks/107162274',function(sound){
+ $('#start9').click(function(e) {
+         e.preventDefault();
+         sound.start();
+       });
+
+   $('#stop9').click(function(e) {
+                  e.preventDefault();
+                  sound.stop();
+                });
+});
+//teejay
+SC.stream('/tracks/451680189',function(sound){
+ $('#start10').click(function(e) {
+         e.preventDefault();
+         sound.start();
+       });
+
+   $('#stop10').click(function(e) {
+                  e.preventDefault();
+                  sound.stop();
+                });
+});
+//omiya
+SC.stream('/tracks/181376064',function(sound){
+ $('#start11').click(function(e) {
+         e.preventDefault();
+         sound.start();
+       });
+
+   $('#stop11').click(function(e) {
+                  e.preventDefault();
+                  sound.stop();
+                });
+});
+//mcsai
+SC.stream('/tracks/162228040',function(sound){
+ $('#start12').click(function(e) {
+         e.preventDefault();
+         sound.start();
+       });
+
+   $('#stop12').click(function(e) {
+                  e.preventDefault();
+                  sound.stop();
+                });
+});
+
 
  });
